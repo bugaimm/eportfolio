@@ -1,0 +1,145 @@
+html, body, footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+   left:0px;
+   bottom:0px;
+   height:100px;
+   width:100%;
+}
+
+p, td, li, address {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+th {
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: 'Playfair+Display', normal;
+  font-weight: 800;
+  margin-top: 70px;
+}
+
+h3, th {
+  font-family: 'Playfair+Display+', normal;
+  font-weight: 500;
+}
+
+hr {
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color: gray;
+  height: 1px;
+}
+
+#canvas {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#canvas {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 75px;
+  }
+
+.navbar1 {
+  overflow: visible;
+  background-color: #C41230;
+  margin-top: 10px;
+}
+
+.navbar1 a {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+.dropbtn {
+  font-family: 'Playfair+Display', normal;
+  background-color: #C41230;
+  border: none;
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+.navbar1 a.Resume {
+  text-decoration: underline;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  text-align: right;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.Biocolumn {
+  float: left;
+  width: 53%;
+  margin-right: 5px;
+}
+
+.Biocolumn1 {
+  float: right;
+  width: 45%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+#button {
+  background-color: rgba(255,255,255,0);
+  size: 30px;
+  border: none;
+  float: right;
+  width: 50%;
+}
+
+#footertable { 
+ margin-left: auto;
+ margin-right: auto;
+}
